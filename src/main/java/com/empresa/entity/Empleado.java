@@ -64,8 +64,14 @@ public class Empleado {
 	//Para formatear la fecha de nacimiento 
 	public String getReporteFechaNacimiento() {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-		return sdf.format(fechaActualizacion);
+		return sdf.format(fechaNacimiento);
 	}
+
+	/*//Para formatear la fecha de registro 
+	public String getReporteFechaRegistro() {
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+		return sdf.format(fechaRegistro);
+	}*/
 }
 
 
